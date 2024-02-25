@@ -6,8 +6,10 @@ begin
   puts "NHap so phan tu mang (so nguyen <=99) n = "
   while arraySize = Integer(gets.chomp)
     if (arraySize <100 && arraySize > 0)
+        puts "1 #{arraySize}"
         break
     end
+    puts "2 #{arraySize}"
     puts "vui long nhap so nguyen <=99"
   end
 rescue
